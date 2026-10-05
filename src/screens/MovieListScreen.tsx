@@ -32,6 +32,20 @@ const movies = [
     description:
       'Spider-Man asks for help after his identity is revealed, causing unexpected problems.',
   },
+  {
+    title: 'Jurassic World',
+  genre: 'Action, Adventure, Sci-Fi',
+  year: '2015',
+  description:
+    'A dinosaur theme park becomes dangerous when a genetically modified dinosaur escapes.',
+  },
+  {
+    title: 'Avatar',
+  genre: 'Action, Adventure, Sci-Fi',
+  year: '2009',
+  description:
+    'A former Marine explores the alien world of Pandora and becomes involved in its conflict.',
+},
 ];
 
 export default function MovieListScreen({ navigation }: Props) {
