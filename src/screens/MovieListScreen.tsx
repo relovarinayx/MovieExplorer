@@ -88,33 +88,49 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontSize: 27,
+    fontSize: 30,
     fontWeight: 'bold',
     marginBottom: 20,
   },
 
-  card: {
+  search: {
     backgroundColor: '#F1F1F1',
+    paddingHorizontal: 18,
+    paddingVertical: 15,
+    borderRadius: 12,
+    fontSize: 18,
+    marginBottom: 20,
+  },
+
+  empty: {
+    textAlign: 'center',
+    color: '#777',
+    fontSize: 16,
+    marginTop: 20,
+  },
+
+  card: {
+    backgroundColor: '#e1e9ec',
     padding: 20,
     borderRadius: 12,
     marginBottom: 15,
   },
 
   movieTitle: {
-    fontSize: 21,
+    fontSize: 25,
     fontWeight: 'bold',
-    marginBottom: 8,
+    marginBottom: 10,
   },
 
   movieInfo: {
     fontSize: 15,
-    color: '#666',
+    color: '#605e5d',
     marginBottom: 12,
   },
 
   viewText: {
-    fontSize: 14,
-    color: '#333',
+    fontSize: 16,
+    color: '#9a9491',
     fontWeight: 'bold',
   },
 });

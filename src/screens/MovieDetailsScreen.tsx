@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   info: {
     fontSize: 19,
     marginBottom: 10,
-    color: '#18f5e3',
+    color: '#696664',
   },
 
   description: {
