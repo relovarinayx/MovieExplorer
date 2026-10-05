@@ -1,8 +1,8 @@
 import {
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from 'react-native';
 
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
@@ -48,40 +48,40 @@ export default function MovieDetailsScreen({
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 2,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 25,
+    padding: 35,
   },
 
   emoji: {
-    fontSize: 60,
-    marginBottom: 20,
+    fontSize: 65,
+    marginBottom: 22,
   },
 
   title: {
-    fontSize: 28,
+    fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',
-    marginBottom: 15,
+    marginBottom: 20,
   },
 
   info: {
-    fontSize: 17,
-    marginBottom: 8,
-    color: '#555',
+    fontSize: 19,
+    marginBottom: 10,
+    color: '#18f5e3',
   },
 
   description: {
-    fontSize: 17,
+    fontSize: 20,
     textAlign: 'center',
-    lineHeight: 25,
+    lineHeight: 30,
     marginTop: 15,
     marginBottom: 30,
   },
 
   button: {
-    backgroundColor: '#333',
+    backgroundColor: '#41e6f2',
     paddingVertical: 15,
     paddingHorizontal: 25,
     borderRadius: 10,
