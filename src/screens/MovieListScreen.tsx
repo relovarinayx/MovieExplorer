@@ -1,8 +1,8 @@
 import {
-    ScrollView,
-    StyleSheet,
-    Text,
-    TouchableOpacity
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity
 } from 'react-native';
 
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
